@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Sampahplus</string>
+    <string name="name_app">Sampah+</string>
+    <string name="text_splash">Foto Sampahmu, \nTemukan Cara Bijak Mengolahnya! \nUbah Sampah Jadi Manfaat dengan Langkah Mudah.</string>
+    <string name="text_greetings">Hello</string>
+    <string name="icon_salam">👋</string>
+    <string name="text_name">Nama</string>
+    <string name="hookContent">Pindai Sampahmu! Temukan Cara Cerdas untuk Mengelolanya! </string>
+    <string name="hookContent2">Sampah+ kenali sampahmu dan temukan olahan menarik apa yang bisa kamu lakukan</string>
+    <string name="buttonPredict">Cari tahu sekarang</string>
+    <string name="knowledge">Area Pengetahuan</string>
+    <string name="Galeri">Galeri</string>
+    <string name="Camera">Camera</string>
+    <string name="predict">Prediksi</string>
+    <string name="predicthistory">Histori Prediksi</string>
+    <string name="fotouser">foto sampah user</string>
+    <string name="jenis_sampah">Anorganik </string>
+    <string name="context_lama_sampah">Lama terurai</string>
+    <string name="lama_sampah">450 Tahun</string>
+    <string name="nama_sampah">Botol Plastik</string>
+    <string name="desc_scan">Icon scan</string>
+    <string name="rekomendasi">Rekomendasi Pengolahan Sampah</string>
+    <string name="nama_rekomendasi">Lampion</string>
+    <string name="context_nilai_rekomendasi">"Estimasi Nilai : "</string>
+    <string name="nilai_rekomendasi">Rp 30.000 - Rp 40.000</string>
+    <string name="tutorial">Cara Membuat</string>
+    <string name="tutorial_detail">1. Lorem Ipsum blabla\n2. Lorem Ipsum Blabla\n3. Lorem Ipsum blabla\n4. Lorem Ipsum Blabla</string>
+    <string name="title_menu_home">Homepage</string>
+    <string name="title_menu_predict">Predict</string>
+    <string name="title_menu_profile">Profile</string>
+    <string name="title_knowledge">Pengetahuan</string>
+    <string name="content">"Apa yang ada di "</string>
+    <string name="tempat_sampah">Tempat Sampah Biru</string>
+    <string name="content_2">\ ?</string>
+    <string name="content_3">Lorem iPSUM SAFSDAS</string>
+</resources>

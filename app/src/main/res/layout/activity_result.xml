@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.result.ResultActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_back"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <ImageView
+            android:id="@+id/iv_result"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginVertical="16dp"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:scaleType="fitCenter"
+            app:layout_constraintTop_toBottomOf="@+id/iv_back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:src="@tools:sample/avatars"
+            />
+
+        <TextView
+            android:id="@+id/tv_nama_sampah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginStart="8dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/iv_result"
+            app:layout_constraintStart_toStartOf="@id/iv_back"
+            tools:text="@string/nama_sampah"
+            />
+
+        <TextView
+            android:id="@+id/tv_jenis_sampah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:textSize="20sp"
+            android:background="@drawable/rounded_background"
+            android:fontFamily="@font/poppins_semibold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv_nama_sampah"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_nama_sampah"
+            tools:text="@string/jenis_sampah"
+            />
+
+        <TextView
+            android:id="@+id/tv_context_lama"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:fontFamily="@font/poppins_regular"
+            app:layout_constraintStart_toStartOf="@+id/tv_nama_sampah"
+            app:layout_constraintTop_toBottomOf="@+id/tv_nama_sampah"
+            tools:text="@string/context_lama_sampah" />
+
+        <TextView
+            android:id="@+id/tv_lama_sama"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:textSize="12sp"
+            android:fontFamily="@font/poppins_regular"
+            app:layout_constraintStart_toEndOf="@+id/tv_context_lama"
+            app:layout_constraintTop_toTopOf="@+id/tv_context_lama"
+            tools:text="@string/lama_sampah" />
+
+        <TextView
+            android:id="@+id/tv_rekomendasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@id/tv_context_lama"
+            app:layout_constraintStart_toStartOf="@id/tv_context_lama"
+            android:text="@string/rekomendasi"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="16sp"
+            />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@+id/tv_rekomendasi"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_rekomendasi">
+            <com.google.android.material.progressindicator.CircularProgressIndicator
+                android:id="@+id/pb_loading_rekomendasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:indeterminate="true"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="16dp"
+                android:visibility="visible" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_rekomendasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="4dp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:spanCount="2"
+                tools:listitem="@layout/item_recomendation" />
+        </FrameLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>
