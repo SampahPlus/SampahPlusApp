@@ -33,4 +33,23 @@
     <string name="tempat_sampah">Tempat Sampah Biru</string>
     <string name="content_2">\ ?</string>
     <string name="content_3">Lorem iPSUM SAFSDAS</string>
+
+    <string name="logo">Logo</string>
+    <string name="masuk">Masuk</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="lupa_sandi">Lupa Kata Sandi?</string>
+    <string name="masukkan_email">Masukkan email Anda</string>
+    <string name="masukkan_password">Masukkan password Anda</string>
+    <string name="belum_punya_akun">Belum punya akun?</string>
+    <string name="daftar_disini">Daftar di sini</string>
+    <string name="daftar">Daftar</string>
+    <string name="masukkan_nama">Masukkan nama Anda</string>
+    <string name="nama_user">Nama User</string>
+    <string name="email_user">Email User</string>
+    <string name="edit_profil">Edit profil</string>
+    <string name="bahasa">Bahasa</string>
+    <string name="tema">Tema</string>
+    <string name="keluar">Keluar</string>
+    <string name="kirim">Kirim</string>
 </resources>
