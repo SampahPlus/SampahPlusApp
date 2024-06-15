@@ -16,6 +16,7 @@
         android:name="com.sampahplus.ui.profile.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
+
     <fragment
         android:id="@+id/menu_tab_predict"
         android:name="com.sampahplus.ui.predict.PredictFragment"
