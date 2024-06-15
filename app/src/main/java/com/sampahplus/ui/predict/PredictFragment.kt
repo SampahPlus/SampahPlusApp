@@ -1,4 +1,4 @@
-package bangkit.academy.sampahplus.ui.predict
+package com.sampahplus.sampahplus.ui.predict
 
 import androidx.fragment.app.Fragment
 
