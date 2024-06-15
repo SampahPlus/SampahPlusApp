@@ -1,4 +1,4 @@
-package com.sampahplus.sampahplus.ui.recomendation
+package com.sampahplus.ui.recomendation
 
 class DetailRecomendationActivity {
 }

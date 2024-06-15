@@ -1,4 +1,4 @@
-package com.sampahplus.sampahplus.ui.profile
+package com.sampahplus.ui.profile
 
 import androidx.fragment.app.Fragment
 

@@ -1,4 +1,4 @@
-package com.sampahplus.sampahplus.ui.splash
+package com.sampahplus.ui.splash
 
 class SplashScreenActivity {
 }
