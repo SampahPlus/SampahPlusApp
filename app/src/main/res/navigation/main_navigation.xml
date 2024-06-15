@@ -7,18 +7,18 @@
 
     <fragment
         android:id="@+id/menu_tab_home"
-        android:name="bangkit.academy.sampahplus.ui.home.HomeFragment"
+        android:name="com.sampahplus.ui.home.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/menu_tab_profile"
-        android:name="bangkit.academy.sampahplus.ui.profile.ProfileFragment"
+        android:name="com.sampahplus.ui.profile.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
     <fragment
         android:id="@+id/menu_tab_predict"
-        android:name="bangkit.academy.sampahplus.ui.predict.PredictFragment"
+        android:name="com.sampahplus.ui.predict.PredictFragment"
         android:label="fragment_predict"
         tools:layout="@layout/fragment_predict" />
 </navigation>

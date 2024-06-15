@@ -21,7 +21,7 @@
     <string name="desc_scan">Icon scan</string>
     <string name="rekomendasi">Rekomendasi Pengolahan Sampah</string>
     <string name="nama_rekomendasi">Lampion</string>
-    <string name="context_nilai_rekomendasi">"Estimasi Nilai : "</string>
+    <string name="context_nilai_rekomendasi">Estimasi Nilai : </string>
     <string name="nilai_rekomendasi">Rp 30.000 - Rp 40.000</string>
     <string name="tutorial">Cara Membuat</string>
     <string name="tutorial_detail">1. Lorem Ipsum blabla\n2. Lorem Ipsum Blabla\n3. Lorem Ipsum blabla\n4. Lorem Ipsum Blabla</string>
@@ -29,11 +29,10 @@
     <string name="title_menu_predict">Predict</string>
     <string name="title_menu_profile">Profile</string>
     <string name="title_knowledge">Pengetahuan</string>
-    <string name="content">"Apa yang ada di "</string>
+    <string name="content">Apa yang ada di </string>
     <string name="tempat_sampah">Tempat Sampah Biru</string>
-    <string name="content_2">\ ?</string>
+    <string name="content_2">?</string>
     <string name="content_3">Lorem iPSUM SAFSDAS</string>
-
     <string name="logo">Logo</string>
     <string name="masuk">Masuk</string>
     <string name="email">Email</string>
@@ -52,4 +51,5 @@
     <string name="tema">Tema</string>
     <string name="keluar">Keluar</string>
     <string name="kirim">Kirim</string>
+    <string name="pesan_welcome_page">Scan Sampah Anda! Temukan Cara Cerdas untuk Mengelolanya!</string>
 </resources>

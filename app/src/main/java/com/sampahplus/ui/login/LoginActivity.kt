@@ -8,10 +8,10 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.sampahplus.ui.main.MainActivity
 import com.sampahplus.ui.register.RegisterActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.sampahplus.R
-import com.sampahplus.ui.main.MainActivity
 
 class LoginActivity : AppCompatActivity() {
 

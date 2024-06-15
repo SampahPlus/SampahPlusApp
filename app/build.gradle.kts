@@ -1,15 +1,16 @@
 plugins {
-    alias(libs.plugins.androidApplication)
-    alias(libs.plugins.jetbrainsKotlinAndroid)
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
+    id("com.google.gms.google-services")
     alias(libs.plugins.ksp)
 }
 
 android {
-    namespace = "bangkit.academy.sampahplus"
+    namespace = "com.sampahplus"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "bangkit.academy.sampahplus"
+        applicationId = "com.sampahplus"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -37,24 +38,24 @@ android {
 }
 
 dependencies {
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation("com.google.firebase:firebase-auth:23.0.0")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
-    //glide
+    // Glide
     implementation(libs.glide)
     implementation(libs.circleimageview)
 
-    //fragment-ktx
+    // Fragment-ktx
     implementation(libs.fragment.ktx)
 
-    //Navigation
+    // Navigation
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
 }
