@@ -1,4 +1,4 @@
-package com.sampahplus.sampahplus.ui.knowledge
+package com.sampahplus.ui.knowledge
 
 class KnowledgeActivity {
 }

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "658246204115",
+    "project_id": "sampahplus",
+    "storage_bucket": "sampahplus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658246204115:android:accb526b10ec45feee7226",
+        "android_client_info": {
+          "package_name": "com.sampahplus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-It_zT-YPlXrW3-AwgMZqZfa2-MqSbn8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
