@@ -1,4 +1,4 @@
-package bangkit.academy.sampahplus.ui.home
+package com.sampahplus.sampahplus.ui.home
 
 import androidx.fragment.app.Fragment
 
