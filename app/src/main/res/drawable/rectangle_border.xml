@@ -3,5 +3,4 @@
     <solid android:color="#FFFFFF"/> <!-- Anda dapat mengubah warna ini sesuai kebutuhan -->
     <corners android:radius="4dp"/>
     <padding android:left="5dp" android:top="5dp" android:right="5dp" android:bottom="5dp" />
-    <stroke android:width="2dp" android:color="#A8A8A8" />
 </shape>
