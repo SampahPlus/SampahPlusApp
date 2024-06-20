@@ -51,5 +51,23 @@
     <string name="tema">Tema</string>
     <string name="keluar">Keluar</string>
     <string name="kirim">Kirim</string>
-    <string name="pesan_welcome_page">Scan Sampah Anda! Temukan Cara Cerdas untuk Mengelolanya!</string>
+    <string name="judul_welcome_page">Selamat Datang di Sampah+!</string>
+    <string name="pesan_welcome_page">Selamat datang di Sampah+! Kami senang Anda bergabung dengan kami dalam upaya menjaga kebersihan lingkungan. Mari kita mulai perjalanan ini bersama-sama!</string>
+    <string name="empty">List kosong</string>
+    <string name="empty_history">Tidak Ada Riwayat Prediksi</string>
+    <string name="context_tanggal">"Diunggah pada "</string>
+    <string name="img_empty_warning">Masukkan gambar terlebih dahulu</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="hint_name">Username</string>
+    <string name="text_hint_email">Email</string>
+    <string name="text_email">email</string>
+    <string name="text_edit">Edit Username</string>
+    <string name="text_editEmail">Edit Email</string>
+    <string name="logout">Keluar</string>
+    <string name="text_save">Simpan</string>
+    <string name="text_success_notif">Berhasil update username</string>
+    <string name="button_kembali">Tombol Kembali</string>
+    <string name="gambar_rekomendasi">Gambar Rekomendasi</string>
+    <string name="gambar_tempat_sampah">Gambar Tempat Sampah</string>
+    <string name="gambar_jenis_sampah">Gambar Jenis Sampah</string>
 </resources>

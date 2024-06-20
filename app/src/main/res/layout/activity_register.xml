@@ -107,4 +107,5 @@
         android:stateListAnimator="@null"
         android:text="@string/daftar" />
 
+
 </LinearLayout>

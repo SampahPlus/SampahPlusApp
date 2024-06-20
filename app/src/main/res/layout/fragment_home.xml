@@ -11,6 +11,7 @@
         android:layout_height="wrap_content">
 
         <include
+            android:layout_marginTop="8dp"
             android:id="@+id/layout_header"
             layout="@layout/layout_home_header"
             android:layout_width="match_parent"
@@ -64,6 +65,7 @@
                 app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
                 app:spanCount="2"
                 tools:listitem="@layout/item_knowledge" />
+
         </FrameLayout>
 
 

@@ -1,6 +1,5 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -12,6 +11,7 @@
         android:layout_height="32dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
+        android:contentDescription="@string/button_kembali"
         android:src="@drawable/ic_back"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -31,9 +31,10 @@
 
     <ImageView
         android:id="@+id/iv_tempat_sampah"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
         android:layout_marginTop="32dp"
+        android:contentDescription="@string/gambar_tempat_sampah"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/judul_pengetahuan"
@@ -64,8 +65,8 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:paddingVertical="8dp">
+            android:layout_height="match_parent">
+
 
             <TextView
                 android:id="@+id/tv_content"
@@ -74,6 +75,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:fontFamily="@font/poppins_semibold"
+                android:textSize="12sp"
                 android:text="@string/content"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -83,9 +85,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppins_bold"
+                android:textSize="12sp"
+                android:layout_marginStart="4dp"
                 app:layout_constraintStart_toEndOf="@+id/tv_content"
                 app:layout_constraintTop_toTopOf="@+id/tv_content"
-                tools:text="@string/tempat_sampah" />
+                android:text="@string/tempat_sampah" />
 
             <TextView
                 android:id="@+id/tv_content_2"
@@ -99,25 +103,18 @@
 
             <TextView
                 android:id="@+id/tv_jenis_sampah"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:textStyle="bold"
-                android:fontFamily="@font/poppins_semibold"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/poppins_regular"
                 android:text="@string/jenis_sampah"
-                app:layout_constraintStart_toStartOf="@+id/tv_content"
-                app:layout_constraintTop_toBottomOf="@+id/tv_content" />
+                android:textSize="12sp"
 
-            <TextView
-                android:id="@+id/tv_content_3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:fontFamily="@font/poppins_semibold"
-                android:text="@string/content_3"
-                android:layout_marginStart="8dp"
-                app:layout_constraintStart_toEndOf="@+id/tv_jenis_sampah"
-                app:layout_constraintTop_toTopOf="@+id/tv_jenis_sampah" />
+                android:layout_marginHorizontal="8dp"
+                app:layout_constraintEnd_toEndOf="@+id/tv_content_2"
+                app:layout_constraintStart_toStartOf="@+id/tv_content"
+                app:layout_constraintTop_toBottomOf="@+id/tv_content"
+                />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -138,9 +135,8 @@
         <ImageView
             android:id="@+id/iv_knowledge"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:scaleType="centerCrop"
-            app:layout_constraintDimensionRatio="16:9"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/gambar_jenis_sampah"
             tools:src="@tools:sample/avatars" />
     </androidx.cardview.widget.CardView>
 

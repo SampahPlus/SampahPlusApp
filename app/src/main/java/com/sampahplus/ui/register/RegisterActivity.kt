@@ -9,6 +9,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.sampahplus.ui.login.LoginActivity
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.userProfileChangeRequest
 import com.sampahplus.R
 
 class RegisterActivity : AppCompatActivity() {
@@ -40,9 +41,24 @@ class RegisterActivity : AppCompatActivity() {
     }
 
     private fun registerUser(nama: String, email: String, password: String) {
+
         auth.createUserWithEmailAndPassword(email, password)
             .addOnCompleteListener(this) { task ->
                 if (task.isSuccessful) {
+                    // Update user profile
+                    val user = auth.currentUser
+                    val profileUpdates = userProfileChangeRequest {
+                        displayName = nama
+                    }
+                    user?.updateProfile(profileUpdates)
+                        ?.addOnCompleteListener { updateProfileTask ->
+                            if (updateProfileTask.isSuccessful) {
+                                Log.d("RegisterActivity", "User profile updated.")
+                            } else {
+                                Log.w("RegisterActivity", "Failed to update profile.", updateProfileTask.exception)
+                            }
+                        }
+
                     // Registration successful, navigate to main activity or login activity
                     Log.d("RegisterActivity", "createUserWithEmail:success")
                     val intent = Intent(this, LoginActivity::class.java)
