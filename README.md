@@ -1,7 +1,7 @@
 # Sampah+
 Sampah+ is a mobile application developed for empowering users in waste management by providing a user-friendly platform for waste classification, personalized recommendations, and fostering independent waste handling practices. Through innovative features such as image recognition technology and tailored guidance, Sampah+ aims to enhance user awareness, promote sustainable waste management behaviors, and contribute to a cleaner environment and healthier communities.
 
-You can also click [soon]) to watch the demo.
+You can also click [this](https://drive.google.com/file/d/19HJZ5R9SDqvL-Tj29Y62GkxrhYUsp3AF/view?usp=sharing) to watch the demo.
 
 For downloading the application, please visit our website at [Sampah+ Landing Page](https://landing-page-dot-sampahplus.et.r.appspot.com/).
 
