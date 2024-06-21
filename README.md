@@ -31,10 +31,22 @@ For downloading the application, please visit our website at [Sampah+ Landing Pa
 - Edit Profile
 ---
 ## How to install 🔧
-Clone this repository and import into **Android Studio**
+1. **Clone this repository and import into Android Studio**
 ```bash
 git clone https://github.com/SampahPlus/SampahPlusApp.git
 ```
+2. **Add google-services.json's file**
+   - Go to your Firebase project settings.
+   - Download the google-services.json file.
+   - Place the google-services.json file in the app directory of your project.
+     
+3. **Sync Project with Gradle Files**
+   - In Android Studio, click on File > Sync Project with Gradle Files.
+     
+4. **Run the Application**
+   - Select an emulator or connect a physical device.
+   - Click on the Run button or press Shift + F10.
+
 ---
 ## Developer 👷‍♀
 This project developed by:
